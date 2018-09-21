@@ -17,4 +17,13 @@
       width: 100%;
     }
   }
+  &_image {
+    display: flex;
+    align-items: center;
+  }
+  &__image {
+    margin-right: 12px;
+    font-size: 23px;
+    color: #c6cbd1;
+  }
 }
