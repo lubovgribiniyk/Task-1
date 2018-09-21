@@ -1,2 +1,25 @@
 .footer {
+  padding: 20px 0;
+  background-color: $dark-white;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__copyright {
+    font-size: 13px;
+    color: $main-text;
+  }
+  &__copy-text {
+    color: #aaacaf;
+  }
+  &__social {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    &-image {
+      font-size: 17px;
+      color: #b5b7b9;
+    }
+  }
 }
