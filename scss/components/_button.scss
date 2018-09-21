@@ -1,0 +1,24 @@
+.button {
+  display: block;
+  border: none;
+  height: 35px;
+  width: 98px;
+  color: $white;
+  font-size: 14px;
+  background-color: $primary;
+  border-radius: 14px;
+  text-decoration: none;
+  transition: background-color linear 0.3s;
+  &_gray {
+    background-color: #d2d5da;
+  }
+  &:hover {
+    background-color: darken($primary, 20%);
+  }
+  &:active {
+    border: none;
+  }
+  &:focus {
+    outline: 0;
+  }
+}
