@@ -27,4 +27,10 @@
   &:focus {
     outline: 0;
   }
+  @include to640 {
+    padding: 4px 0;
+    height: 26px;
+    width: 80px;
+    font-size: 13px;
+  }
 }

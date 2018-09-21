@@ -13,6 +13,13 @@
   &__copy-text {
     color: #aaacaf;
   }
+  &__copy-link {
+    color: #aaacaf;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   &__social {
     display: flex;
     justify-content: space-between;
@@ -20,6 +27,10 @@
     &-image {
       font-size: 17px;
       color: #b5b7b9;
+      transition: color linear 0.3s;
+      &:hover {
+        color: darken(#b5b7b9, 20%);
+      }
     }
   }
 }

@@ -21,4 +21,26 @@
     align-items: flex-start;
     padding: 10px 0;
   }
+  @include to640 {
+    padding: 30px 0;
+    &__heading {
+      margin: 0 auto 15px;
+      max-width: 240px;
+      font-size: 13px;
+    }
+    .heading__image {
+      margin-right: 4px;
+    }
+    &__list {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__item {
+      width: 45%;
+      margin: 10px;
+    }
+  }
+  @include to480 {
+    padding: 20px 0 15px;
+  }
 }

@@ -15,4 +15,27 @@
   &__heading {
     margin-bottom: 26px;
   }
+  @include to640 {
+    padding: 30px 0;
+    &__container {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__image {
+      margin: 0 auto 25px;
+      max-width: 350px;
+    }
+    &__info {
+      max-width: 100%;
+    }
+    &__heading {
+      justify-content: center;
+    }
+  }
+  @include to480 {
+    padding: 25px 0;
+    &__image {
+      max-width: 250px;
+    }
+  }
 }

@@ -12,7 +12,17 @@
   &__text {
     margin-bottom: 30px;
   }
-  &__heading {
-    margin-bottom: 26px;
+  @include to640 {
+    padding: 20px 0;
+    &__container {
+      flex-direction: column;
+    }
+    &__item {
+      margin-bottom: 20px;
+      max-width: initial;
+    }
+    &__heading {
+      justify-content: center;
+    }
   }
 }
