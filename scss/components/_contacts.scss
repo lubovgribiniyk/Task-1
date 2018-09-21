@@ -1,0 +1,18 @@
+.contacts {
+  padding: 62px 0 60px;
+  background-color: $secondary;
+  text-align: left;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: 250px;
+  }
+  &__text {
+    margin-bottom: 30px;
+  }
+  &__heading {
+    margin-bottom: 26px;
+  }
+}

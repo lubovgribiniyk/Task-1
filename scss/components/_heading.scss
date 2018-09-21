@@ -1,6 +1,8 @@
 .heading {
   margin: 0 0 22px;
   font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
   color: $heading;
   text-transform: uppercase;
   &_underlined {
@@ -23,7 +25,11 @@
   }
   &__image {
     margin-right: 12px;
-    font-size: 23px;
+    font-size: 21px;
     color: #c6cbd1;
+  }
+  &_bigger {
+    font-size: 18px;
+    line-height: 20px;
   }
 }
