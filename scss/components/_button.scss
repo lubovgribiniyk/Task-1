@@ -12,11 +12,14 @@
   text-decoration: none;
   text-align: center;
   transition: background-color linear 0.3s;
-  &_gray {
-    background-color: #d2d5da;
-  }
   &:hover {
     background-color: darken($primary, 20%);
+  }
+  &_gray {
+    background-color: #d2d5da;
+    &:hover {
+      background-color: darken(#d2d5da, 20%);
+    }
   }
   &:active {
     border: none;

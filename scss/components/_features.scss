@@ -1,0 +1,27 @@
+.features {
+  padding: 58px 0 62px;
+  background-color: $dark-white;
+  text-align: left;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: 181px;
+  }
+  &__text {
+    margin-bottom: 20px;
+  }
+  &__image {
+    margin-bottom: 35px;
+  }
+  &__link {
+    font-size: 14px;
+    line-height: 16px;
+    color: $primary;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
