@@ -1,0 +1,18 @@
+.special-offer {
+  padding: 62px 0;
+  background-color: $dark-white;
+  text-align: left;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__info {
+    max-width: 290px;
+  }
+  &__text {
+    margin-bottom: 25px;
+  }
+  &__heading {
+    margin-bottom: 26px;
+  }
+}
