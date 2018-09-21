@@ -1,0 +1,21 @@
+.templates {
+  padding: 65px 0 77px;
+  background-color: $dark-white;
+  text-align: left;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: 264px;
+  }
+  &__text {
+    margin-bottom: 28px;
+  }
+  &__image {
+    margin-bottom: 35px;
+  }
+  &__heading {
+    margin-bottom: 26px;
+  }
+}

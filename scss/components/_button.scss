@@ -1,13 +1,16 @@
 .button {
   display: block;
   border: none;
+  padding: 9px 0;
   height: 35px;
   width: 98px;
   color: $white;
   font-size: 14px;
+  line-height: 17px;
   background-color: $primary;
-  border-radius: 14px;
+  border-radius: 17px;
   text-decoration: none;
+  text-align: center;
   transition: background-color linear 0.3s;
   &_gray {
     background-color: #d2d5da;
