@@ -1,5 +1,7 @@
 $container-width: 610px;
 
+// color variables
+
 $green: #50c3af;
 $gray: #787b80;
 $dark-gray: #384048;
@@ -11,16 +13,12 @@ $secondary: #eeeeef;
 $main-text: $gray;
 $heading: $dark-gray;
 
+// font variables
+
 $main-font: "PT Sans", sans-serif;
 $secondary-font: "Ubuntu", sans-serif;
 
-@mixin to640 {
-  @media only screen and (max-width: 640px + 17px) {
-    @content;
-  }
-}
-@mixin to480 {
-  @media only screen and (max-width: 480px + 17px) {
-    @content;
-  }
-}
+// breakpoint variables
+
+$sm: 640px;
+$xs: 480px;

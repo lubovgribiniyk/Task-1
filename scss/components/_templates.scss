@@ -18,14 +18,14 @@
   &__heading {
     margin-bottom: 26px;
   }
-  @include to640 {
+  @media only screen and (max-width: $sm) {
     padding: 30px 0;
     &__image {
       width: 200px;
       margin-bottom: 15px;
     }
   }
-  @include to480 {
+  @media only screen and (max-width: $xs) {
     padding: 20px 0;
     &__container {
       flex-direction: column;

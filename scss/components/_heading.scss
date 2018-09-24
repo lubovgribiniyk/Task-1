@@ -32,7 +32,7 @@
     font-size: 18px;
     line-height: 20px;
   }
-  @include to640 {
+  @media only screen and (max-width: $sm) {
     font-size: 13px;
     line-height: 15px;
     margin: 0 0 15px;

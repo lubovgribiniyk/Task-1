@@ -12,7 +12,7 @@
   &__text {
     margin-bottom: 30px;
   }
-  @include to640 {
+  @media only screen and (max-width: $sm) {
     padding: 20px 0;
     &__container {
       flex-direction: column;

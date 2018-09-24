@@ -27,7 +27,7 @@
   &:focus {
     outline: 0;
   }
-  @include to640 {
+  @media only screen and (max-width: $sm) {
     padding: 4px 0;
     height: 26px;
     width: 80px;

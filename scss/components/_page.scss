@@ -1,4 +1,4 @@
-html {
+.page {
   height: 100%;
   font-family: $main-font;
   font-size: 14px;
@@ -9,10 +9,4 @@ html {
 *:after,
 *:before {
   box-sizing: border-box;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
