@@ -1,0 +1,48 @@
+.templates {
+  padding: 65px 0 77px;
+  background-color: $dark-white;
+  text-align: left;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: 264px;
+  }
+  &__text {
+    margin-bottom: 28px;
+  }
+  &__image {
+    margin-bottom: 35px;
+  }
+  &__heading {
+    margin-bottom: 26px;
+  }
+  @media only screen and (max-width: $sm) {
+    padding: 30px 0;
+    &__image {
+      width: 200px;
+      margin-bottom: 15px;
+    }
+  }
+  @media only screen and (max-width: $xs) {
+    padding: 20px 0;
+    &__container {
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__image {
+      width: 100%;
+    }
+    &__item {
+      margin: 0 auto 15px;
+      max-width: 400px;
+    }
+    &__heading {
+      margin-bottom: 15px;
+    }
+    &__text {
+      margin-bottom: 15px;
+    }
+  }
+}

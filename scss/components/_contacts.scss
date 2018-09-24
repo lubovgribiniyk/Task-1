@@ -1,0 +1,28 @@
+.contacts {
+  padding: 62px 0 60px;
+  background-color: $secondary;
+  text-align: left;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: 250px;
+  }
+  &__text {
+    margin-bottom: 30px;
+  }
+  @media only screen and (max-width: $sm) {
+    padding: 20px 0;
+    &__container {
+      flex-direction: column;
+    }
+    &__item {
+      margin-bottom: 20px;
+      max-width: initial;
+    }
+    &__heading {
+      justify-content: center;
+    }
+  }
+}

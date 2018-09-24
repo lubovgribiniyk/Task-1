@@ -1,0 +1,46 @@
+.partners {
+  padding: 50px 0 60px;
+  background-color: $primary;
+  &__heading {
+    margin: 0 auto 22px;
+    max-width: 272px;
+    font-size: 15px;
+    color: $white;
+    letter-spacing: 0.1px;
+    &:after {
+      background-color: rgba(255, 255, 255, 0.06);
+    }
+  }
+  .heading__image {
+    margin-right: 8px;
+    color: rgba(255, 255, 255, 0.54);
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+  }
+  @media only screen and (max-width: $sm) {
+    padding: 30px 0;
+    &__heading {
+      margin: 0 auto 15px;
+      max-width: 240px;
+      font-size: 13px;
+    }
+    .heading__image {
+      margin-right: 4px;
+    }
+    &__list {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__item {
+      width: 45%;
+      margin: 10px;
+    }
+  }
+  @media only screen and (max-width: $xs) {
+    padding: 20px 0 15px;
+  }
+}

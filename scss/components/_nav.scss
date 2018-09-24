@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  &__link {
+    color: $white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all linear 0.3s;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

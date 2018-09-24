@@ -1,0 +1,36 @@
+.button {
+  display: block;
+  border: none;
+  padding: 9px 0;
+  height: 35px;
+  width: 98px;
+  color: $white;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: $primary;
+  border-radius: 17px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color linear 0.3s;
+  &:hover {
+    background-color: darken($primary, 20%);
+  }
+  &_gray {
+    background-color: #d2d5da;
+    &:hover {
+      background-color: darken(#d2d5da, 20%);
+    }
+  }
+  &:active {
+    border: none;
+  }
+  &:focus {
+    outline: 0;
+  }
+  @media only screen and (max-width: $sm) {
+    padding: 4px 0;
+    height: 26px;
+    width: 80px;
+    font-size: 13px;
+  }
+}
